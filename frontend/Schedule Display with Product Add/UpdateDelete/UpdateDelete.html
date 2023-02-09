@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/Admin/addData.css" />
+    <link rel="stylesheet" href="../home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Update And Delete Products</h1>
+        <input type="text" id="id-key">
+        <button onclick="searchbyid()">search</button>
+      </div>
+      <!-- Form -->
+      <div class="form_container">
+        <form class="add__products-form" id="update_order-form">
+          <!-- <div class="form_item">Id:</div>
+            <input type="text" id="value-input" placeholder="ID" /> -->
+          <!-- <div class="form_item">Customer ID:</div>
+            <input type="text" id="customer_id" placeholder="Customer ID" /> -->
+            <div class="form_item">
+              <h5>Customer Id:</h5>
+              <input type="text" name="customerid" id="customerid" placeholder="Customer Name" />
+            </div>
+          
+            <div class="form_item">
+            <h5>Customer Name:</h5>
+            <input type="text" name="customer_name" id="customer_name" placeholder="Customer Name" />
+          </div>
+
+          <div class="form_item">
+            <h5>Item ID:</h5>
+            <input type="text" name="item_id" id="item_id" placeholder="Item ID" />
+          </div>
+
+          <div class="form_item">
+            <h5>Quantity:</h5>
+            <input type="text" name="quantity" id="quantity" placeholder="Quantity" />
+          </div>
+
+          <div class="form_item">
+            <h5>Rate:</h5>
+            <input type="text" name="rate" id="rate" placeholder="Rate" />
+          </div>
+
+          <div class="form_item">
+            <h5>Destintion Country:</h5>
+            <input
+              type="text"
+              name="destination_country"
+              id="destination_country"
+              placeholder="Destintion Country"
+            />
+          </div>
+
+          <div class="form_item">
+            <h5>Mode Of Transport:</h5>
+            <input
+              type="text"
+              name="mode_of_transport"
+              id="mode_of_transport"
+              placeholder="Mode Of Transport"
+            />
+          </div>
+
+          <div class="form_item">
+            <h5>Delivery Date:</h5>
+            <input type="text" name="delivery_date" id="delivery_date" placeholder="Delivery Date" />
+          </div>
+
+          <div class="form_item">
+            <h5>Production Start Date:</h5>
+            <input
+              type="text"
+              name="production_start_date"
+              id="production_start_date"
+              placeholder="Production Start Date"
+            />
+          </div>
+
+          <div class="form_item">
+            <h5>Production End Date:</h5>
+            <input
+              type="text"
+              name="production_end_date"
+              id="production_end_date"
+              placeholder="Production End Date"
+            />
+          </div>
+
+          <div class="form_item">
+            <h5>A Delivery Date:</h5>
+            <input
+              type="text"
+              name="a_delivery_date"
+              id="a_delivery_date"
+              placeholder="A Delivery Date"
+            />
+          </div>
+
+          <div class="form_item">
+            <h5>Penalty:</h5>
+            <input type="text" name="penalty" id="penalty" placeholder="Penalty" />
+          </div>
+
+          <div class="form_item">
+            <h4>Order Id:</h4>
+            <input type="text" name="orderid" id="orderid" placeholder="Order id" />
+          </div>
+
+          <div class="form_item">
+            <h4>Order Status:</h4>
+            <input type="text" name="order_staus" id="order_staus" placeholder="Order Status" />
+          </div>
+          <div class="buttons">
+            <button class="btn" onclick="" type="submit">Update changes</button>
+          </div>
+          <!-- <input class="btn" type="submit" value="submit" id="submit" />
+            <input class="btn" type="submit" value="read" id="read" />
+            <input class="btn" type="submit" value="delete" id="delete" /> -->
+        </form>
+      </div>
+      <button class="btn" onclick="deletebyid()">Delete</button>
+      <br><br>
+      <a href="/home.html">Go To Home</a>
+      <!-- {/* =============== footer ======= */} -->
+      <div class="footer">
+        <footer>
+          <div class="links">
+            <a> Conditons of Use</a>
+            <a> Privacy Notice</a>
+            <a> Help</a>
+          </div>
+          <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </footer>
+      </div>
+    </div>
+    <script src="updatedelete.js"></script>
+  </body>
+</html>

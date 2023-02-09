@@ -1,0 +1,114 @@
+:root {
+  --color-text: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+/* form */
+.add__products-form {
+  display: grid;
+  width: 30%;
+  grid-template: repeat(13, 1fr);
+  padding: 25px 30px;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 25px auto 30px;
+  background: rgb(172, 180, 197);
+  border: 1px solid rgb(138, 143, 146);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(124, 155, 173);
+}
+/* .add__products-form {
+  grid-column: 2/3;
+  text-align: center;
+  padding: 20px;
+  background: rgb(196, 191, 191);
+} */
+/* .add__products-form {
+  text-align: left;
+} */
+.add__products-form h5 {
+  font-size: 18px;
+  padding: 2px 2px;
+  font-weight: 700;
+}
+.add__products-form input[type="text"] {
+  width: 350px;
+  height: 40px;
+  padding: 3px 7px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 3.5px;
+  margin: 5px 0;
+  outline: none;
+}
+.add__products-form input[type="text"]:focus {
+  border-color: rgb(67, 109, 133);
+  /* border-color: rgb(253, 254, 255); */
+  box-shadow: 0 0 5px rgb(67, 128, 165);
+}
+/* ------------- btn ------------- */
+.btn {
+  width: 80px;
+  height: 33px;
+  padding: 3px 7px;
+  font-weight: 600;
+  border: 1px solid gray;
+  background-image: linear-gradient(#e8f6ff, #bbe2f8, #9bd7fa);
+  border-radius: 3.5px;
+  margin: 5px 0;
+}
+.btn:hover {
+  background-image: linear-gradient(#c3e7fd, #aad3eb, #7fc3eb);
+  transition: all 0.2s linear;
+}
+.buttons {
+  justify-content: space-between;
+}
+/* ========= footer ============ */
+.footer {
+  background: white;
+}
+footer {
+  height: 20%;
+  /* background: #7490a5; */
+}
+footer .links {
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 18%;
+  margin: 25px auto 15px;
+  /* background: #dfe7ee; */
+}
+footer .links a {
+  font-size: 12px;
+  color: #10318b;
+  /* text-align: center; */
+  /* text-decoration: none; */
+}
+
+footer::before {
+  content: "";
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 45px;
+  margin-top: -35px;
+  border-top: 1px solid transparent;
+  box-shadow: 0 10px 16px -20px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #464545;
+  text-align: center;
+}

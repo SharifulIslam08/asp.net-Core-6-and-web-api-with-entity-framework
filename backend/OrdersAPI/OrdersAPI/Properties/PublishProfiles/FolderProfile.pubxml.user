@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\shariful.islam22\Desktop\full Project\publish_api</_PublishTargetUrl>
+    <History>True|2023-02-08T05:15:56.6567071Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="OrdersAPIConnectionString">
+      <Value>Server=STL-SOFT-SHARIF%3bUser ID = sa%3bPassword=password%3bDatabase=OrdersDB%3bEncrypt=False%3bTrusted_Connection=False%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="OrdersAPI.Data.OrdersAPIDbContext">
+      <Value>Server=STL-SOFT-SHARIF%3bUser ID = sa%3bPassword=password%3bDatabase=OrdersDB%3bEncrypt=False%3bTrusted_Connection=False%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
